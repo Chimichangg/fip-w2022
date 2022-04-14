@@ -55,3 +55,82 @@
   margin-bottom: 62px;
   margin-left: -40px;
 }
+
+/* College Section Values */
+
+.featuregrid {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: auto auto auto;
+}
+
+.collagecontainer {
+  display: flex;
+  padding: 20px;
+  background-color: #e3dfdc;
+}
+
+.collagecontainer2 {
+  display: block;
+  padding: 20px;
+  background-color: #e3dfdc;
+}
+
+.collegeheading {
+  margin-bottom: 20px;
+  font-family: retiro-std-24pt, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.collegepara {
+  font-family: futura-pt, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.collegepara2 {
+  padding-right: 119px;
+  font-family: futura-pt, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+#feature-toe {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#feature-material {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#feature-TPU {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#feature-dualStraps {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#feature-heel {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
