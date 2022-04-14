@@ -134,3 +134,39 @@
   grid-row-start: 3;
   grid-row-end: 4;
 }
+
+/* CTA Values */
+.ctacontainer {
+  display: flex;
+}
+
+.ctablock {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.ctatext {
+  font-family: retiro-std-24pt, sans-serif;
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ctabutton {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 13px 19px;
+  background-color: transparent;
+  outline-color: #4d4743;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 1.5px;
+  font-family: futura-pt, sans-serif;
+  color: #000;
+  font-size: 20px;
+}
+
+.ctabutton:hover {
+  background-color: #4d4743;
+  color: #fff;
+}
