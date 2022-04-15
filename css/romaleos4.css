@@ -248,3 +248,95 @@
   align-self: center;
   justify-self: center;
 }
+
+/* Gallery Grid Values */
+.gallery-grid {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(10, 80px);
+  grid-template-rows: auto auto auto auto;
+}
+
+.galleryheading {
+  padding-top: 16px;
+  font-family: futura-pt, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+.gallerylist {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+#gallery {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#detail {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#shoes-label {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#shoes-back {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#shoes-floor {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#gallery-toes {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#shoes-bottom {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+#shoes-box {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#gallery-list {
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#detail-text {
+  grid-column-start: 8;
+  grid-column-end: 11;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
